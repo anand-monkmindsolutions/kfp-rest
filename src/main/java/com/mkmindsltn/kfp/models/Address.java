@@ -2,6 +2,7 @@ package com.mkmindsltn.kfp.models;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.OneToOne;
 
 
 @Data
@@ -13,4 +14,7 @@ public class Address extends BaseEntity{
     private String addressLine3;
     private String district;
     private String pinCode;
+
+    @OneToOne
+    private Customer customer;
 }
