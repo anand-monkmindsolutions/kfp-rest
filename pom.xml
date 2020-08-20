@@ -21,7 +21,6 @@
 		<m2e.apt.activation>jdt_apt</m2e.apt.activation>
 		<mapstruct-jdk8.version>1.3.0.Final</mapstruct-jdk8.version>
 		<org.projectlombok.version>1.18.12</org.projectlombok.version>
-
 		<springfox-swagger2.version>2.7.0</springfox-swagger2.version>
 	</properties>
 
